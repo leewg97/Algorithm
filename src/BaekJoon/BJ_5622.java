@@ -5,7 +5,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 상수
+// 다이얼
 public class BJ_5622 {
 
     public static void main(String[] args) throws IOException {
