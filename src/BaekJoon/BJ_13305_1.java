@@ -13,30 +13,29 @@ public class BJ_13305_1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
 
-        long[] dists = new long[N - 1];
+        long[] dist = new long[N - 1]; // 도로의 길이
+        long[] cost = new long[N]; // 리터당 가격
+
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-        // 거리 입력
-        for (int i = 0; i < N - 1; i++) {
-            dists[i] = Long.parseLong(st.nextToken());
+        for (int i = 0; i < N - 1; i++) {   // 도로의 길이
+            dist[i] = Long.parseLong(st.nextToken());
         }
 
-
-        long[] prices = new long[N];
-        // 리터당 기름 입력
         st = new StringTokenizer(br.readLine(), " ");
-        for (int i = 0; i < N; i++) {
-            prices[i] = Long.parseLong(st.nextToken());
+        for (int i = 0; i < N; i++) {   // 리터당 가격 입력
+            cost[i] = Long.parseLong(st.nextToken());
         }
 
-        long minCost = dists[0] * prices[0];
-        long minPrice = prices[0];
+        long sum = 0;
+        long minCost = cost[0]; // 이전 까지의 과정 중 주유 최소 비
 
-        for (int i = 1; i < N - 1; i++) {
-            if (minPrice > prices[i]) {
-                minPrice = prices[i];
+        // 현재 주유소의 기름 값이 이전 주유소 보다 쌀 경우 minCost 갱신
+        for (int i = 0; i < N - 1; i++) {
+            if (cost[i] < minCost) {
+                minCost = cost[i];
             }
-            minCost += minPrice * dists[i];
+            sum += (minCost * dist[i]);
         }
-        System.out.println(minCost);
+        System.out.println(sum);
     }
- }
+}
