@@ -12,13 +12,13 @@ public class BJ_2012 {
     public static void main(String[] args) throws IOException {
 
         String inputData = """
-        5
-        1
-        5
-        3
-        1
-        2
-         """;
+                5
+                1
+                5
+                3
+                1
+                2
+                 """;
         System.setIn(new ByteArrayInputStream(inputData.getBytes()));
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,8 +32,8 @@ public class BJ_2012 {
 
         long min = 0;
 
-        for (int i = 0; i < N; i++) {
-            min += Math.abs((i + 1) - rankings[i]);
+        for (int i = 1; i <= N; i++) {
+            min += Math.abs(rankings[i - 1] - i);
         }
         System.out.println(min);
     }
