@@ -1,7 +1,6 @@
 package Softeer;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
@@ -17,19 +16,6 @@ public class lv2_2 {
     public static int[] dy = {0, -1, 0, 1};
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-                7
-                1110111
-                0110101
-                0110101
-                0000100
-                0110000
-                0111110
-                0110000
-                """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
