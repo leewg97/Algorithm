@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -10,20 +10,6 @@ import java.util.StringTokenizer;
 public class BJ_1149 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        8
-        71 39 44
-        32 83 55
-        51 37 63
-        89 29 100
-        83 58 11
-        65 13 15
-        47 25 29
-        60 66 19
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
