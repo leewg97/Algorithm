@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 
 // 신고 결과 받기
-public class Lv1_1 {
+public class Receive_Report_Results {
 
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
