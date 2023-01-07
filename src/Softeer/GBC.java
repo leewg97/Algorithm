@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // GBC
-public class lv2_4 {
+public class GBC {
 
     public static int N, M;
 
