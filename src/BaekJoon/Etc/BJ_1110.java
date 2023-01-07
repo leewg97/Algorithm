@@ -1,17 +1,11 @@
-package BaekJoon;
+package BaekJoon.Etc;
 
 import java.io.*;
 
-//더하기 사이클
+// 더하기 사이클
 public class BJ_1110 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        71
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int updateNum = N;
