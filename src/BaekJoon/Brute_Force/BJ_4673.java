@@ -1,7 +1,7 @@
-package BaekJoon;
+package BaekJoon.Brute_Force;
 
 // 셀프 넘버
-public class BJ_4674 {
+public class BJ_4673 {
     public static void main(String[] args) {
         boolean[] check = new boolean[10001];
 
