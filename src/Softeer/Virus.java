@@ -6,12 +6,11 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 바이러스
-public class lv2_3 {
+public class Virus {
 
     public static int N, K, P;
 
-    public static void main(String args[]) throws IOException
-    {
+    public static void main(String args[]) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
         K = Integer.parseInt(st.nextToken());
