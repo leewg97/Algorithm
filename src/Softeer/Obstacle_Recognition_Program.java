@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 // 장애물 인식 프로그램
-public class lv2_2 {
+public class Obstacle_Recognition_Program {
 
     public static int N;
     public static int[][] arr;
