@@ -1,15 +1,13 @@
-package BaekJoon;
+package BaekJoon.Greedy;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.StringTokenizer;
 
 // 동전 0
-public class BJ_11047_1 {
+public class BJ_11047 {
 
     public static void main(String[] args) throws IOException {
 
@@ -34,23 +32,21 @@ public class BJ_11047_1 {
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-        Integer[] coins = new Integer[N];
+        int[] coin = new int[N];
 
         for (int i = 0; i < N; i++) {
-            coins[i] = Integer.parseInt(br.readLine());
+            coin[i] = Integer.parseInt(br.readLine());
         }
-        Arrays.sort(coins, Collections.reverseOrder());
+
         int count = 0;
 
-        for (int i = 0; i < N; i++) {
-            if (K >= coins[i]) {
-                count += (K / coins[i]);
-                K %= coins[i];
-                if (K <= 0) {
-                    break;
-                }
+        for (int i = N - 1; i >= 0; i--) {
+            if (coin[i] <= K) {
+                count += (K / coin[i]);
+                K = K % coin[i];
             }
         }
         System.out.println(count);
     }
+
 }
