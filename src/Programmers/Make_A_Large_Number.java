@@ -1,7 +1,7 @@
 package Programmers;
 
 // 큰 수 만들기
-public class Lv2_2 {
+public class Make_A_Large_Number {
     public String solution(String number, int k) {
         StringBuilder sb = new StringBuilder();
 
