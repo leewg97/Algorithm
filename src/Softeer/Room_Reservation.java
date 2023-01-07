@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 회의실 예약
-public class lv2_5 {
+public class Room_Reservation {
 
     public static int N, M, s, t;
 
