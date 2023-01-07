@@ -3,7 +3,7 @@ package Programmers;
 import java.util.Arrays;
 
 // 체육복
-public class Lv1_3 {
+public class Workout_Clothes {
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = n - lost.length;
 
