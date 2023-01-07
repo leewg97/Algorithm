@@ -3,7 +3,7 @@ package Programmers;
 import java.util.Arrays;
 
 // 구명 보트
-public class Lv2_1 {
+public class Lifeboat {
     public int solution(int[] people, int limit) {
         int answer = 0;
         Arrays.sort(people);
