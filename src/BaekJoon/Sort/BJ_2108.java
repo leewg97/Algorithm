@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Sort;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -10,17 +10,6 @@ import java.util.Arrays;
 public class BJ_2108 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        5
-        1
-        3
-        8
-        -2
-        2
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int sum = 0;
@@ -34,11 +23,8 @@ public class BJ_2108 {
         }
 
         System.out.println(sum / N);
-
         Arrays.sort(arr);
-
         System.out.println(arr[(N - 1) / 2]);
-
         System.out.println(arr[N - 1] - arr[0]);
     }
 }
