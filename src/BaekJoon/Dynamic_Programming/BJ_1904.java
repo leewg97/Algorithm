@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -8,12 +8,6 @@ import java.io.InputStreamReader;
 // 01타일
 public class BJ_1904 {
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        4
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int[] dp = new int[1000001];
