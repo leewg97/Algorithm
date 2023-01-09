@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.Search;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -13,14 +12,6 @@ public class BJ_1920 {
     public static int[] arr;
 
     public static void main(String[] args) throws IOException {
-        String inputData = """
-                5
-                4 1 5 2 3
-                5
-                1 3 7 9 5
-                """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
