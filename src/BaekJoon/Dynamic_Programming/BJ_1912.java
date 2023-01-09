@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -9,13 +8,6 @@ import java.util.StringTokenizer;
 // 연속합
 public class BJ_1912 {
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        10
-        2 1 -4 3 4 -4 6 5 -5 1
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int[] arr = new int[N];
@@ -34,4 +26,3 @@ public class BJ_1912 {
         System.out.println(max);
     }
 }
-/*풀지 못했으니 복기해보기*/
