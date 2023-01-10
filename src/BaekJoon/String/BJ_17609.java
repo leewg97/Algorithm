@@ -1,25 +1,11 @@
-package BaekJoon;
+package BaekJoon.String;
 
 import java.io.*;
 
 // 회문
-// 아직 잘 모르겠다.. 복습!
 public class BJ_17609 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        7
-        abba
-        summuus
-        xabba
-        xabbay
-        comcom
-        comwwmoc
-        comwwtmoc           
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 
@@ -62,5 +48,4 @@ public class BJ_17609 {
         }
         return 0; // 회문
     }
-
 }
