@@ -1,12 +1,10 @@
-package BaekJoon;
+package BaekJoon.Etc;
 
 import java.io.*;
 
 // N 찍기
 public class BJ_2741 {
-
     public static void main(String[] args) throws IOException {
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
