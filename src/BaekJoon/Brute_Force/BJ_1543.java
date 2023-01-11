@@ -1,19 +1,12 @@
-package BaekJoon;
+package BaekJoon.Brute_Force;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 // 문서 검색
 public class BJ_1543 {
     public static void main(String[] args) throws IOException {
-        String inputData = """
-                ababababa
-                aba
-                """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String docs = br.readLine();
         String word = br.readLine();
