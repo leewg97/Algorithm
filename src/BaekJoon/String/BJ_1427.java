@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.String;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -10,12 +10,6 @@ import java.util.Arrays;
 public class BJ_1427 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        500613009
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         char[] arr = br.readLine().toCharArray();
