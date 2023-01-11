@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.Sort;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -9,17 +8,6 @@ import java.io.InputStreamReader;
 public class BJ_2750 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        5
-        5
-        2
-        3
-        4
-        1
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
