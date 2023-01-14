@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Brute_Force;
 
 import java.io.*;
 import java.util.StringTokenizer;
