@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Graph;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -9,7 +9,6 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 // 알파벳
-// 이해 못했음... 
 public class BJ_1987 {
     static int R, C;
     static char[][] board;
@@ -19,14 +18,6 @@ public class BJ_1987 {
     static boolean[] visited = new boolean[26];
 
     public static void main(String[] args) throws IOException {
-        String inputData = """
-        3 6
-        HFDFFB
-        AJHGDH
-        DGAGEH
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         R = Integer.parseInt(st.nextToken());
