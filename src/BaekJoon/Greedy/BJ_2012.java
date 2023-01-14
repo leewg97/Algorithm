@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.Greedy;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -10,17 +9,6 @@ import java.util.Arrays;
 public class BJ_2012 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-                5
-                1
-                5
-                3
-                1
-                2
-                 """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int[] rankings = new int[N];
