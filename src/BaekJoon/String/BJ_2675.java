@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.String;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -9,14 +9,6 @@ import java.io.InputStreamReader;
 public class BJ_2675 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-                2
-                3 ABC
-                5 /HTP
-                """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int T = Integer.parseInt(br.readLine());
