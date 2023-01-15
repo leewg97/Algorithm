@@ -1,21 +1,12 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 // 파도반 수열
 public class BJ_9461 {
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        2
-        6
-        12
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine());
         long[] dp = new long[101];
