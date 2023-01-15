@@ -1,9 +1,10 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 1, 2, 3 더하기
 public class BJ_9095 {
 
     public static void main(String[] args) throws IOException {
