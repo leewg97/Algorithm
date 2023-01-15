@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -9,18 +9,6 @@ import java.util.StringTokenizer;
 // 팰린드롬?
 public class BJ_10942 {
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        7
-        1 2 1 3 1 2 1
-        4
-        1 3
-        2 5
-        3 3
-        5 7
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
         int N = Integer.parseInt(br.readLine());
