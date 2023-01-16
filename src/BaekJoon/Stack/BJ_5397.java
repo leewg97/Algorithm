@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Stack;
 
 import java.io.*;
 import java.util.Stack;
