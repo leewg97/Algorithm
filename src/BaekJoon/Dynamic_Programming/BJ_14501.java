@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -9,21 +8,6 @@ import java.util.StringTokenizer;
 // 퇴사
 public class BJ_14501 {
     public static void main(String[] args) throws IOException {
-        String inputData = """
-        10
-        5 50
-        4 40
-        3 30
-        2 20
-        1 10
-        1 10
-        2 20
-        3 30
-        4 40
-        5 50
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         StringTokenizer st;
