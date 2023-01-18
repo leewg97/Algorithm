@@ -1,8 +1,9 @@
-package BaekJoon;
+package BaekJoon.Etc;
 
 import java.io.IOException;
 import java.util.Scanner;
 
+// A+B - 8
 public class BJ_11022 {
 
     public static void main(String[] args) throws IOException {
