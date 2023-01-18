@@ -1,24 +1,13 @@
-package BaekJoon;
+package BaekJoon.Dynamic_Programming;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 행렬 곱셈 순서
-// 이해 조금만 더 하면 될듯?
 public class BJ_11049 {
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-                3
-                5 3
-                3 2
-                2 6
-                """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         int[][] matrix = new int[N][2];
