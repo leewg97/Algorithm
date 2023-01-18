@@ -1,7 +1,8 @@
-package BaekJoon;
+package BaekJoon.Etc;
 
 import java.util.Scanner;
 
+// A+B - 7
 public class BJ_11021 {
 
     public static void main(String[] args) {
