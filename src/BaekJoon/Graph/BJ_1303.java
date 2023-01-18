@@ -1,13 +1,11 @@
-package BaekJoon;
+package BaekJoon.Graph;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 전투
-// 이해는 not yet...
 public class BJ_1303 {
     static char[][] board;
     static int[] dx = { -1, 0, 1, 0};
@@ -16,16 +14,6 @@ public class BJ_1303 {
     static boolean[][] visited;
 
     public static void main(String[] args) throws IOException {
-        String inputData = """
-        5 5
-        WBWWW
-        WWWWW
-        BBBBB
-        BBBWW
-        WWWWW      
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
