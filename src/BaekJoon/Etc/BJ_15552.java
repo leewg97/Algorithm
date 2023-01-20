@@ -1,8 +1,9 @@
-package BaekJoon;
+package BaekJoon.Etc;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
+// 빠른 A+B
 public class BJ_15552 {
 
     public static void main(String[] args) throws IOException {
