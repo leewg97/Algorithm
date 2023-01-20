@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.String;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -9,12 +8,6 @@ import java.io.InputStreamReader;
 public class BJ_11720 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        baekjoon
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int[] arr = new int[26];
