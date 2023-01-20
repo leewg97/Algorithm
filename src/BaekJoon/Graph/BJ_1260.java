@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Graph;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -9,7 +9,6 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 // DFS 와 BFS
-// 강사님 풀이.. 아직 이해 못했음..
 public class BJ_1260 {
     static int[][] graph;
     static StringBuilder sb = new StringBuilder();
@@ -17,15 +16,6 @@ public class BJ_1260 {
     static int N, M, start;
 
     public static void main(String[] args) throws IOException {
-        String inputData = """
-                5 5 3
-                5 4
-                5 2
-                1 2
-                3 4
-                3 1
-                """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
