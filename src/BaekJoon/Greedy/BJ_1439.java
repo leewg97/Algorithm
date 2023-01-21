@@ -1,7 +1,6 @@
-package BaekJoon;
+package BaekJoon.Greedy;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -10,12 +9,6 @@ import java.util.StringTokenizer;
 public class BJ_1439 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        11001100110011000001
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String S = br.readLine();
 
