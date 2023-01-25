@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Etc;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class BJ_10950 {
 
     public static void main(String[] args) throws IOException {
-        // Scanner 사용
         Scanner sc = new Scanner(System.in);
 
         int T = sc.nextInt();
