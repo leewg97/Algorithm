@@ -1,4 +1,4 @@
-package BaekJoon;
+package BaekJoon.Sort;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -10,22 +10,6 @@ import java.util.Arrays;
 public class BJ_10989 {
 
     public static void main(String[] args) throws IOException {
-
-        String inputData = """
-        10
-        5
-        2
-        3
-        1
-        4
-        2
-        3
-        5
-        1
-        7
-        """;
-        System.setIn(new ByteArrayInputStream(inputData.getBytes()));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 
