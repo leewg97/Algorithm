@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// 수 정렬하기 3
+// 수 정렬하기 3 
 public class BJ_10989 {
 
     public static void main(String[] args) throws IOException {
