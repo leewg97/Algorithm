@@ -1,4 +1,4 @@
-package Programmers.Level1.Running_Race;
+package Programmers.Level1.달리기_경주;
 
 import java.util.*;
 

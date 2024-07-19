@@ -1,4 +1,4 @@
-package Programmers.Level1.Memory_Score;
+package Programmers.Level1.추억_점수;
 
 import java.util.HashMap;
 import java.util.Map;

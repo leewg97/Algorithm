@@ -1,4 +1,4 @@
-package Programmers.Level1.Most_Received_Gift;
+package Programmers.Level1.가장_많이_받은_선물;
 
 import java.util.HashMap;
 import java.util.Map;

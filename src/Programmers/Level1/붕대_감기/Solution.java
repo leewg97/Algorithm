@@ -1,4 +1,4 @@
-package Programmers.Level1.Bandage;
+package Programmers.Level1.붕대_감기;
 
 import java.util.HashMap;
 import java.util.Map;
