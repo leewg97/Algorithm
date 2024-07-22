@@ -10,7 +10,7 @@ public class Main {
 
     public static int N, K, P;
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(bf.readLine());
         K = Integer.parseInt(st.nextToken());
