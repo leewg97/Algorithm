@@ -1,4 +1,4 @@
-package Softeer;
+package Softeer.GBC;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // GBC
-public class GBC {
+public class Main {
 
     public static int N, M;
 

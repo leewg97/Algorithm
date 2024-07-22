@@ -1,4 +1,4 @@
-package Softeer;
+package Softeer.바이러스;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 바이러스
-public class Virus {
+public class Main {
 
     public static int N, K, P;
 

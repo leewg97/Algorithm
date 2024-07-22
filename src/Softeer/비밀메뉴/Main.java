@@ -1,4 +1,4 @@
-package Softeer;
+package Softeer.비밀메뉴;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 비밀메뉴
-public class Secret_Menu {
+public class Main {
     public static int M, N, K;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

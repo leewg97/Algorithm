@@ -1,4 +1,4 @@
-package Softeer;
+package Softeer.장애물_인식_프로그램;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 // 장애물 인식 프로그램
-public class Obstacle_Recognition_Program {
+public class Main {
 
     public static int N;
     public static int[][] arr;

@@ -1,4 +1,4 @@
-package Softeer;
+package Softeer.회의실_예약;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 회의실 예약
-public class Room_Reservation {
+public class Main {
 
     public static int N, M, s, t;
 

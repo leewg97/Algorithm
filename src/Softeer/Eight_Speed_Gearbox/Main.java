@@ -1,4 +1,4 @@
-package Softeer;
+package Softeer.Eight_Speed_Gearbox;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 8단 변속기
-public class Eight_Speed_Gearbox {
+public class Main {
 
     public static int[] asc = {1, 2, 3, 4, 5, 6, 7, 8};
     public static int[] desc = {8, 7, 6, 5, 4, 3, 2, 1};
